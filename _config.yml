@@ -1,0 +1,41 @@
+# Site settings
+title: "AutoTech Solutions"
+description: "파이썬 기반 금융 자동화 및 업무 자동화 전문 회사"
+baseurl: "" # GitHub Pages에서 자동 설정됨
+url: "https://your-username.github.io" # 실제 GitHub 사용자명으로 변경
+
+# Company info
+company:
+  name: "AutoTech Solutions"
+  tagline: "스마트한 자동화로 비즈니스 혁신을"
+  email: "contact@yourcompany.com"
+  
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# GitHub Pages 호환 설정
+safe: true
+incremental: false
+
+# Collections (나중에 포트폴리오용)
+collections:
+  services:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
