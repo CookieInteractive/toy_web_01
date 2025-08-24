@@ -7,9 +7,9 @@ url: "https://cookieinteractive.github.io/toy_web_01/"
 
 # Company info
 company:
-  name: "AutoTech Solutions"
+  name: "Toy Project Web 01"
   tagline: "스마트한 자동화로 비즈니스 혁신을"
-  email: "contact@yourcompany.com"
+  email: ""
   
 # Build settings
 markdown: kramdown
