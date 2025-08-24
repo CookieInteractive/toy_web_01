@@ -2,7 +2,8 @@
 title: "AutoTech Solutions"
 description: "파이썬 기반 금융 자동화 및 업무 자동화 전문 회사"
 baseurl: "" # GitHub Pages에서 자동 설정됨
-url: "https://your-username.github.io" # 실제 GitHub 사용자명으로 변경
+# url: "https://your-username.github.io" # 실제 GitHub 사용자명으로 변경
+url: "https://cookieinteractive.github.io/toy_web_01/"
 
 # Company info
 company:
